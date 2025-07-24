@@ -1,0 +1,41 @@
+{
+    "Core": {
+        "language": "言語",
+        "en": "英語",
+        "my": "ビルマ語",
+        "jp": "日本語",
+        "kr": "韓国語",
+        "th": "タイ語"
+    },
+    "HomePage": {
+        "title": "こんにちは、世界！",
+        "about": "このページについて"
+    },
+    "Navigation": {
+        "navMain": {
+            "Dashboard": "ダッシュボード",
+            "Lifecycle": "ライフサイクル",
+            "Analytics": "分析",
+            "Projects": "プロジェクト",
+            "Team": "チーム"
+        },
+        "navClouds": {
+            "Capture": "キャプチャ",
+            "Proposal": "提案",
+            "Prompts": "プロンプト",
+            "Active Proposals": "アクティブな提案",
+            "Archived": "アーカイブ"
+        },
+        "navSecondary": {
+            "Settings": "設定",
+            "Get Help": "ヘルプを得る",
+            "Search": "検索"
+        },
+        "documents": {
+            "DataLibrary": "データライブラリ",
+            "Data Library": "データライブラリ",
+            "Reports": "レポート",
+            "Word Assistant": "ワードアシスタント"
+        }
+    }
+}

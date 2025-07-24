@@ -1,0 +1,41 @@
+{
+  "Core": {
+    "language": "Language",
+    "en": "English",
+    "my": "Burmese",
+    "jp": "Japanese",
+    "kr": "Korean",
+    "th": "Thai"
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Navigation": {
+    "navMain": {
+      "Dashboard": "Dashboard",
+      "Lifecycle": "Lifecycle",
+      "Analytics": "Analytics",
+      "Projects": "Projects",
+      "Team": "Team"
+    },
+    "navClouds": {
+      "Capture": "Capture",
+      "Proposal": "Proposal",
+      "Prompts": "Prompts",
+      "Active Proposals": "Active Proposals",
+      "Archived": "Archived"
+    },
+    "navSecondary": {
+      "Settings": "Settings",
+      "Get Help": "Get Help",
+      "Search": "Search"
+    },
+    "documents": {
+      "Data Library": "Data Library",
+      "DataLibrary": "Data Library",
+      "Reports": "Reports",
+      "Word Assistant": "Word Assistant"
+    }
+  }
+}

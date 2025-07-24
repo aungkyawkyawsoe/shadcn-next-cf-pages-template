@@ -1,0 +1,41 @@
+{
+    "Core": {
+        "language": "언어",
+        "en": "영어",
+        "my": "버마어",
+        "jp": "일본어",
+        "kr": "한국어",
+        "th": "태국어"
+    },
+    "HomePage": {
+        "title": "안녕하세요, 세계!",
+        "about": "이 페이지에 대해서"
+    },
+    "Navigation": {
+        "navMain": {
+            "Dashboard": "대시보드",
+            "Lifecycle": "라이프사이클",
+            "Analytics": "분석",
+            "Projects": "프로젝트",
+            "Team": "팀"
+        },
+        "navClouds": {
+            "Capture": "캡처",
+            "Proposal": "제안",
+            "Prompts": "프롬프트",
+            "Active Proposals": "활성 제안",
+            "Archived": "보관됨"
+        },
+        "navSecondary": {
+            "Settings": "설정",
+            "Get Help": "도움 받기",
+            "Search": "검색"
+        },
+        "documents": {
+            "DataLibrary": "데이터 라이브러리",
+            "Data Library": "데이터 라이브러리",
+            "Reports": "보고서",
+            "Word Assistant": "워드 어시스턴트"
+        }
+    }
+}

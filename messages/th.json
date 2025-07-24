@@ -1,0 +1,41 @@
+{
+    "Core": {
+        "language": "ภาษา",
+        "en": "อังกฤษ",
+        "my": "ภาษาพม่า",
+        "jp": "ภาษาญี่ปุ่น",
+        "kr": "ภาษามะเลาะ",
+        "th": "ภาษาไทย"
+    },
+    "HomePage": {
+        "title": "สวัสดี, โลก!",
+        "about": "หน้านี้เกี่ยวกับ"
+    },
+    "Navigation": {
+        "navMain": {
+            "Dashboard": "แดชบอร์ด",
+            "Lifecycle": "วงจรชีวิต",
+            "Analytics": "การวิเคราะห์",
+            "Projects": "โครงการ",
+            "Team": "ทีม"
+        },
+        "navClouds": {
+            "Capture": "จับภาพ",
+            "Proposal": "ข้อเสนอ",
+            "Prompts": "พรอมต์",
+            "Active Proposals": "ข้อเสนอที่ใช้งานอยู่",
+            "Archived": "เก็บถาวร"
+        },
+        "navSecondary": {
+            "Settings": "การตั้งค่า",
+            "Get Help": "ขอความช่วยเหลือ",
+            "Search": "ค้นหา"
+        },
+        "documents": {
+            "Data Library": "คลังข้อมูล",
+            "DataLibrary": "คลังข้อมูล",
+            "Reports": "รายงาน",
+            "Word Assistant": "ผู้ช่วย"
+        }
+    }
+}
