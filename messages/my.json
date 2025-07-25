@@ -1,6 +1,7 @@
 {
     "Core": {
         "language": "ဘာသာစကား",
+        "de": "ဂျာမန်",
         "en": "အင်္ဂလိပ်",
         "my": "ဗမာ",
         "jp": "ဂျပန်",
@@ -9,10 +10,28 @@
     },
     "HomePage": {
         "title": "မင်္ဂလာပါ",
-        "about": "အကြောင်းအရာစာမျက်နှာကို သွားကြပါစို့"
+        "about": "အကြောင်းအရာစာမျက်နှာကို သွားကြပါစို့",
+        "total_revenue": "စုစုပေါင်းဝင်ငွေ",
+        "new_customers": "ဖောက်သည်တိုးတက်မှုနှုန်း",
+        "active_accounts": "အသုံးပြုသူများ",
+        "growth_rate": "တိုးတက်မှုနှုန်းများ",
+        "revenue_subtitle_1": "ယခုလဝင်ငွေတိုးတက်နေ",
+        "revenue_subtitle_2": "၆ လ အတွင်း ဖောက်သည်တိုးများ",
+        "new_customers_subtitle_1": "၂၀ % ကျဆင်းနေ",
+        "new_customers_subtitle_2": "ပြန်လည်သုံးရန်လိုအပ်နေ",
+        "active_accounts_subtitle_1": "အသုံးပြုသူများအာရုံစိုက်မှုများ",
+        "active_accounts_subtitle_2": "သတ်မှတ်ချက်ထက် ရောင်းအားပိုများ",
+        "growth_rate_subtitle_1": "တဖြည်းဖြည်းတိုးတက်လာ",
+        "growth_rate_subtitle_2": "တိုးတက်နှုန်းအားစောင့်ကြည့်နေ",
+        "chart_title": "စုစုပေါင်းဖောက်သည်များ",
+        "chart_subtitle": "၆ လ အတွင်း စုစုပေါင်းဖောက်သည်များ",
+        "last_3_months": "၃ လ အတွင်း",
+        "last_30_days": "၁ လ အတွင်း",
+        "last_7_days": "၇ ရက် အတွင်း"
     },
     "Navigation": {
         "navMain": {
+            "quick_create": "အမြန်ဖန်တီးရန်",
             "Dashboard": "ပင်မစာမျက်နှာ",
             "Lifecycle": "အသက်တာစဉ်",
             "Analytics": "လေ့လာဆန်းစစ်ခြင်း",
@@ -36,6 +55,65 @@
             "DataLibrary": "ဒေတာစာကြည့်တိုက်",
             "Reports": "အစီရင်ခံစာများ",
             "Word Assistant": "အကူအညီ"
+        }
+    },
+    "HR": {
+        "core": {
+            "title": "အဓိက ကဏ္ဍများ",
+            "departments": "ဌာနများ",
+            "designations": "ရာထူးများ",
+            "employees": "ဝန်ထမ်းများ",
+            "shifts": "အလုပ်ဆိုင်းများ",
+            "employment_history": "ဝန်ထမ်းသမိုင်းကြောင်းများ"
+        },
+        "time_management": {
+            "title": "အချိန်စီမံခန့်ခွဲမှု",
+            "attendances": "တက်ရောက်မှုများ",
+            "absences": "ပျက်ကွက်မှုများ",
+            "overtimes": "အချိန်ပိုအလုပ်ချိန်များ",
+            "holidays": "ရုံးပိတ်ရက်များ"
+        },
+        "payroll": {
+            "title": "လစာစီမံခန့်ခွဲမှု",
+            "payroll_driver": "လစာတွက်ချက်ခြင်း",
+            "payroll_rules": "လစာစည်းမျဉ်းများ"
+        },
+        "leave": {
+            "title": "ခွင့်စီမံခန့်ခွဲမှု",
+            "leave_types": "ခွင့်အမျိုးအစားများ",
+            "leave_requests": "ခွင့်တောင်းခံမှုများ"
+        },
+        "trip": {
+            "title": "ခရီးစဉ်စီမံခန့်ခွဲမှု",
+            "trip_records": "ခရီးစဉ်မှတ်တမ်းများ",
+            "trip_bonus": "ခရီးစဉ်အပိုဆုကြေး"
+        },
+        "adjustments": {
+            "title": "ညှိနှိုင်းတွက်ချက်မှုများ",
+            "contributions": "ထည့်ဝင်မှုများ",
+            "deductions": "နုတ်ယူမှုများ",
+            "other_plus": "အခြားပေါင်းထည့်မှုများ",
+            "other_minus": "အခြားနုတ်ယူမှုများ"
+        },
+        "personal_actions": {
+            "title": "ကိုယ်ရေးကိုယ်တာ",
+            "job_movements": "အလုပ်ရွှေ့ပြောင်းမှုများ",
+            "resignation": "နုတ်ထွက်ခြင်း",
+            "termination": "အလုပ်ထုတ်ခြင်း",
+            "rehire": "ပြန်လည်ခန့်အပ်ခြင်း",
+            "reassignment": "ပြန်လည်တာဝန်ပေးခြင်း"
+        },
+        "recruitment": {
+            "title": "အလုပ်အကိုင်စီမံခန့်ခွဲမှု",
+            "job_positions": "အလုပ်နေရာများ",
+            "candidates": "အမည်စာရင်းတင်သွင်းသူများ",
+            "interviews": "အင်တာဗျူးများ"
+        },
+        "communications": {
+            "title": "ဆက်သွယ်ရေး",
+            "hr_policies": "HR မူဝါဒများ",
+            "announcements": "ကြေညာချက်များ",
+            "newsletters": "သတင်းလွှာများ"
         }
     }
 }

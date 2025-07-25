@@ -1,0 +1,119 @@
+{
+    "Core": {
+        "language": "Sprache",
+        "de": "Deutsch",
+        "en": "Englisch",
+        "my": "Burmesisch",
+        "jp": "Japanisch",
+        "kr": "Koreanisch",
+        "th": "Thailändisch"
+    },
+    "HomePage": {
+        "title": "Hallo Welt!",
+        "about": "Über diese Seite",
+        "total_revenue": "Gesamteinnahmen",
+        "new_customers": "Neue Kunden",
+        "active_accounts": "Aktive Kunden",
+        "growth_rate": "Wachstumsrate",
+        "revenue_subtitle_1": "Dieser Monat steigt",
+        "revenue_subtitle_2": "Besucher für die letzten 6 Monate",
+        "new_customers_subtitle_1": "In diesem Zeitraum um 20% gesunken",
+        "new_customers_subtitle_2": "Erwerbung benötigt Aufmerksamkeit",
+        "active_accounts_subtitle_1": "Starke Benutzerbindung",
+        "active_accounts_subtitle_2": "Engagement überschreitet Ziele",
+        "growth_rate_subtitle_1": "Stetige Leistungssteigerung",
+        "growth_rate_subtitle_2": "Wachstumsrate ist auf dem richtigen Weg",
+        "chart_title": "Gesamte Besucher",
+        "chart_subtitle": "Gesamte Besucher für die letzten 6 Monate",
+        "last_3_months": "Letzte 3 Monate",
+        "last_30_days": "Letzte 30 Tage",
+        "last_7_days": "Letzte 7 Tage"
+    },
+    "Navigation": {
+        "navMain": {
+            "quick_create": "Schnell erstellen",
+            "Dashboard": "Armaturenbrett",
+            "Lifecycle": "Lebenszyklus",
+            "Analytics": "Analyse",
+            "Projects": "Projekte",
+            "Team": "Team"
+        },
+        "navClouds": {
+            "Capture": "Erfassen",
+            "Proposal": "Vorschlag",
+            "Prompts": "Prompts",
+            "Active Proposals": "Aktive Vorschläge",
+            "Archived": "Archiviert"
+        },
+        "navSecondary": {
+            "Settings": "Einstellungen",
+            "Get Help": "Hilfe erhalten",
+            "Search": "Suchen"
+        },
+        "documents": {
+            "Data Library": "Datenbibliothek",
+            "DataLibrary": "Datenbibliothek",
+            "Reports": "Berichte",
+            "Word Assistant": "Wortassistent"
+        }
+    },
+    "HR": {
+        "core": {
+            "title": "Kern Personalwesen",
+            "departments": "Abteilungen",
+            "designations": "Bezeichnungen",
+            "employees": "Mitarbeiter",
+            "shifts": "Schichten",
+            "employment_history": "Beschäftigungsgeschichte"
+        },
+        "time_management": {
+            "title": "Zeitmanagement",
+            "attendances": "Anwesenheiten",
+            "absences": "Abwesenheiten",
+            "overtimes": "Überstunden",
+            "holidays": "Feiertage"
+        },
+        "payroll": {
+            "title": "Gehaltsabrechnung",
+            "payroll_driver": "Gehaltsabrechnungs-Treiber",
+            "payroll_rules": "Gehaltsabrechnungs-Regeln"
+        },
+        "leave": {
+            "title": "Urlaubsverwaltung",
+            "leave_types": "Urlaubsarten",
+            "leave_requests": "Urlaubsanträge"
+        },
+        "trip": {
+            "title": "Reiseverwaltung",
+            "trip_records": "Reiseaufzeichnungen",
+            "trip_bonus": "Reisebonus"
+        },
+        "adjustments": {
+            "title": "Anpassungen",
+            "contributions": "Beiträge",
+            "deductions": "Abzüge",
+            "other_plus": "Andere Plus",
+            "other_minus": "Andere Minus"
+        },
+        "personal_actions": {
+            "title": "Persönliche Aktionen",
+            "job_movements": "Stellenbewegungen",
+            "resignation": "Kündigung",
+            "termination": "Entlassung",
+            "rehire": "Wiedereinstellung",
+            "reassignment": "Neuzuweisung"
+        },
+        "recruitment": {
+            "title": "Rekrutierung",
+            "job_positions": "Stellenpositionen",
+            "candidates": "Kandidaten",
+            "interviews": "Bewerbungsgespräche"
+        },
+        "communications": {
+            "title": "Kommunikation",
+            "hr_policies": "Personalrichtlinien",
+            "announcements": "Ankündigungen",
+            "newsletters": "Newsletter"
+        }
+    }
+}

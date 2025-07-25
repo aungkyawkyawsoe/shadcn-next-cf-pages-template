@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import { Outfit, IBM_Plex_Mono, Noto_Sans_Myanmar } from "next/font/google";
+import { Inter, IBM_Plex_Mono, Noto_Sans_Myanmar } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider"
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import "@/styles/globals.css";
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
@@ -44,7 +45,7 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head />
       <body
-        className={`${outfit.variable} ${ibmPlexMono.variable} ${notoSansMyanmar.variable} antialiased`}
+        className={`${inter.variable} ${ibmPlexMono.variable} ${notoSansMyanmar.variable} antialiased`}
       >
         <NextIntlClientProvider>
           <ThemeProvider

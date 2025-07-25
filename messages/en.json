@@ -1,6 +1,7 @@
 {
   "Core": {
     "language": "Language",
+    "de": "German",
     "en": "English",
     "my": "Burmese",
     "jp": "Japanese",
@@ -9,10 +10,28 @@
   },
   "HomePage": {
     "title": "Hello world!",
-    "about": "Go to the about page"
+    "about": "Go to the about page",
+    "total_revenue": "Total Revenue",
+    "new_customers": "New Customers",
+    "active_accounts": "Active Accounts",
+    "growth_rate": "Growth Rate",
+    "revenue_subtitle_1": "Trending Up this month",
+    "revenue_subtitle_2": "Visitors for the last 6 months",
+    "new_customers_subtitle_1": "Down 20% this period",
+    "new_customers_subtitle_2": "Acquisition needs attention",
+    "active_accounts_subtitle_1": "Strong user retention",
+    "active_accounts_subtitle_2": "Engagement exceed targets",
+    "growth_rate_subtitle_1": "Steady performance increase",
+    "growth_rate_subtitle_2": "Growth rate is on track",
+    "chart_title": "Total Visitors",
+    "chart_subtitle": "Total visitors for the last 6 months",
+    "last_3_months": "Last 3 Months",
+    "last_30_days": "Last 30 Days",
+    "last_7_days": "Last 7 Days"
   },
   "Navigation": {
     "navMain": {
+      "quick_create": "Quick Create",
       "Dashboard": "Dashboard",
       "Lifecycle": "Lifecycle",
       "Analytics": "Analytics",
@@ -36,6 +55,65 @@
       "DataLibrary": "Data Library",
       "Reports": "Reports",
       "Word Assistant": "Word Assistant"
+    }
+  },
+  "HR": {
+    "core": {
+      "title": "Core HR",
+      "departments": "Departments",
+      "designations": "Designations",
+      "employees": "Employees",
+      "shifts": "Shifts",
+      "employment_history": "Employment History"
+    },
+    "time_management": {
+      "title": "Time Management",
+      "attendances": "Attendances",
+      "absences": "Absences",
+      "overtimes": "Overtimes",
+      "holidays": "Holidays"
+    },
+    "payroll": {
+      "title": "Payroll Management",
+      "payroll_driver": "Payroll Driver",
+      "payroll_rules": "Payroll Rules"
+    },
+    "leave": {
+      "title": "Leave Management",
+      "leave_types": "Leave Types",
+      "leave_requests": "Leave Requests"
+    },
+    "trip": {
+      "title": "Trip Management",
+      "trip_records": "Trip Records",
+      "trip_bonus": "Trip Bonus"
+    },
+    "adjustments": {
+      "title": "Adjustments",
+      "contributions": "Contributions",
+      "deductions": "Deductions",
+      "other_plus": "Other Plus",
+      "other_minus": "Other Minus"
+    },
+    "personal_actions": {
+      "title": "Personal Actions",
+      "job_movements": "Job Movements",
+      "resignation": "Resignation",
+      "termination": "Termination",
+      "rehire": "Rehire",
+      "reassignment": "Reassignment"
+    },
+    "recruitment": {
+      "title": "Recruitment",
+      "job_positions": "Job Positions",
+      "candidates": "Candidates",
+      "interviews": "Interviews"
+    },
+    "communications": {
+      "title": "Communications",
+      "hr_policies": "HR Policies",
+      "announcements": "Announcements",
+      "newsletters": "Newsletters"
     }
   }
 }

@@ -20,7 +20,7 @@ export default function Page() {
                 } as React.CSSProperties
             }
         >
-            <AppSidebar variant="inset" />
+            <AppSidebar />
             <SidebarInset>
                 <SiteHeader currentLocale={currentLocale} />
                 <div className="flex flex-1 flex-col">

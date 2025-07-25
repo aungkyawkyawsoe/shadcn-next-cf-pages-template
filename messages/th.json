@@ -1,6 +1,7 @@
 {
     "Core": {
         "language": "ภาษา",
+        "de": "ภาษาเยอรมัน",
         "en": "อังกฤษ",
         "my": "ภาษาพม่า",
         "jp": "ภาษาญี่ปุ่น",
@@ -9,10 +10,28 @@
     },
     "HomePage": {
         "title": "สวัสดี, โลก!",
-        "about": "หน้านี้เกี่ยวกับ"
+        "about": "หน้านี้เกี่ยวกับ",
+        "total_revenue": "รายได้รวม",
+        "new_customers": "ลูกค้าที่เข้ามาใหม่",
+        "active_accounts": "บัญชีที่ใช้งานอยู่",
+        "growth_rate": "อัตราการเติบโต",
+        "revenue_subtitle_1": "รายได้ที่เพิ่มขึ้นในเดือนนี้",
+        "revenue_subtitle_2": "ผู้เข้าชมในช่วง 6 เดือนที่แล้ว",
+        "new_customers_subtitle_1": "ลดลง 20% ในช่วงนี้",
+        "new_customers_subtitle_2": "การสร้างลูกค้าต้องระวัง",
+        "active_accounts_subtitle_1": "การรักษาลูกค้าที่แข็งแกร่ง",
+        "active_accounts_subtitle_2": "การเข้าร่วมของลูกค้าต้องเกินเป้าหมาย",
+        "growth_rate_subtitle_1": "การเพิ่มประสิทธิภาพที่คงที่",
+        "growth_rate_subtitle_2": "อัตราการเติบโตต้องเป้าหมาย",
+        "chart_title": "ผู้เข้าชมทั้งหมด",
+        "chart_subtitle": "ผู้เข้าชมในช่วง 6 เดือนที่แล้ว",
+        "last_3_months": "ช่วง 3 เดือนที่แล้ว",
+        "last_30_days": "ช่วง 30 วันที่แล้ว",
+        "last_7_days": "ช่วง 7 วันที่แล้ว"
     },
     "Navigation": {
         "navMain": {
+            "quick_create": "สร้างอย่างรวดเร็ว",
             "Dashboard": "แดชบอร์ด",
             "Lifecycle": "วงจรชีวิต",
             "Analytics": "การวิเคราะห์",
@@ -36,6 +55,65 @@
             "DataLibrary": "คลังข้อมูล",
             "Reports": "รายงาน",
             "Word Assistant": "ผู้ช่วย"
+        }
+    },
+    "HR": {
+        "core": {
+            "title": "ทรัพยากรบุคคลหลัก",
+            "departments": "แผนก",
+            "designations": "ตำแหน่ง",
+            "employees": "พนักงาน",
+            "shifts": "กะ",
+            "employment_history": "ประวัติการจ้างงาน"
+        },
+        "time_management": {
+            "title": "การจัดการเวลา",
+            "attendances": "การเข้างาน",
+            "absences": "การขาดงาน",
+            "overtimes": "การทำงานล่วงเวลา",
+            "holidays": "วันหยุด"
+        },
+        "payroll": {
+            "title": "การจัดการเงินเดือน",
+            "payroll_driver": "ไดรเวอร์เงินเดือน",
+            "payroll_rules": "กฎเงินเดือน"
+        },
+        "leave": {
+            "title": "การจัดการลาพัก",
+            "leave_types": "ประเภทการลาพัก",
+            "leave_requests": "คำขอลาพัก"
+        },
+        "trip": {
+            "title": "การจัดการการเดินทาง",
+            "trip_records": "บันทึกการเดินทาง",
+            "trip_bonus": "โบนัสการเดินทาง"
+        },
+        "adjustments": {
+            "title": "การปรับปรุง",
+            "contributions": "การบริจาค",
+            "deductions": "การหักเงิน",
+            "other_plus": "อื่นๆ บวก",
+            "other_minus": "อื่นๆ ลบ"
+        },
+        "personal_actions": {
+            "title": "การกระทำส่วนบุคคล",
+            "job_movements": "การเคลื่อนย้ายงาน",
+            "resignation": "การลาออก",
+            "termination": "การเลิกจ้าง",
+            "rehire": "การจ้างใหม่",
+            "reassignment": "การมอบหมายใหม่"
+        },
+        "recruitment": {
+            "title": "การสรรหา",
+            "job_positions": "ตำแหน่งงาน",
+            "candidates": "ผู้สมัคร",
+            "interviews": "การสัมภาษณ์"
+        },
+        "communications": {
+            "title": "การสื่อสาร",
+            "hr_policies": "นโยบายทรัพยากรบุคคล",
+            "announcements": "ประกาศ",
+            "newsletters": "จดหมายข่าว"
         }
     }
 }

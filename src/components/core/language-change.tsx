@@ -15,6 +15,7 @@ import {
 import { useTranslations } from "next-intl"
 
 const LANGUAGES = [
+    { code: "de", label: "German", flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg" },
     { code: "en", label: "English", flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg" },
     { code: "my", label: "Burmese", flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/MM.svg" },
     { code: "jp", label: "Japanese", flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg" },

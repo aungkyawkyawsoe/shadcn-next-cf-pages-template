@@ -1,16 +1,22 @@
 "use client"
 
-import { IconCirclePlusFilled, IconMail, type Icon } from "@tabler/icons-react"
+import { ChevronRight, type LucideIcon } from "lucide-react"
 
-import { Button } from "@/components/ui/button"
+import {
+    Collapsible,
+    CollapsibleContent,
+    CollapsibleTrigger,
+} from "@/components/ui/collapsible"
 import {
     SidebarGroup,
-    SidebarGroupContent,
+    SidebarGroupLabel,
     SidebarMenu,
     SidebarMenuButton,
     SidebarMenuItem,
+    SidebarMenuSub,
+    SidebarMenuSubButton,
+    SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
-import { useTranslations } from "next-intl";
 
 export function NavMain({
     items,
@@ -18,43 +24,50 @@ export function NavMain({
     items: {
         title: string
         url: string
-        icon?: Icon
+        icon?: LucideIcon
+        isActive?: boolean
+        items?: {
+            title: string
+            url: string
+        }[]
     }[]
 }) {
-    const t = useTranslations("Navigation.navMain");
     return (
         <SidebarGroup>
-            <SidebarGroupContent className="flex flex-col gap-2">
-                <SidebarMenu>
-                    <SidebarMenuItem className="flex items-center gap-2">
-                        <SidebarMenuButton
-                            tooltip="Quick Create"
-                            className="bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground min-w-8 duration-200 ease-linear"
-                        >
-                            <IconCirclePlusFilled />
-                            <span>Quick Create</span>
-                        </SidebarMenuButton>
-                        <Button
-                            size="icon"
-                            className="size-8 group-data-[collapsible=icon]:opacity-0"
-                            variant="outline"
-                        >
-                            <IconMail />
-                            <span className="sr-only">Inbox</span>
-                        </Button>
-                    </SidebarMenuItem>
-                </SidebarMenu>
-                <SidebarMenu>
-                    {items.map((item) => (
-                        <SidebarMenuItem key={item.title}>
-                            <SidebarMenuButton tooltip={t(item.title)}>
-                                {item.icon && <item.icon />}
-                                <span>{t(item.title)}</span>
-                            </SidebarMenuButton>
+            <SidebarGroupLabel>Modules</SidebarGroupLabel>
+            <SidebarMenu>
+                {items.map((item) => (
+                    <Collapsible
+                        key={item.title}
+                        asChild
+                        defaultOpen={item.isActive}
+                        className="group/collapsible"
+                    >
+                        <SidebarMenuItem>
+                            <CollapsibleTrigger asChild>
+                                <SidebarMenuButton tooltip={item.title} className="py-5">
+                                    {item.icon && <item.icon />}
+                                    <span className="font-medium">{item.title}</span>
+                                    <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
+                                </SidebarMenuButton>
+                            </CollapsibleTrigger>
+                            <CollapsibleContent>
+                                <SidebarMenuSub>
+                                    {item.items?.map((subItem) => (
+                                        <SidebarMenuSubItem key={subItem.title}>
+                                            <SidebarMenuSubButton asChild>
+                                                <a href={subItem.url}>
+                                                    <span className="opacity-70">{subItem.title}</span>
+                                                </a>
+                                            </SidebarMenuSubButton>
+                                        </SidebarMenuSubItem>
+                                    ))}
+                                </SidebarMenuSub>
+                            </CollapsibleContent>
                         </SidebarMenuItem>
-                    ))}
-                </SidebarMenu>
-            </SidebarGroupContent>
+                    </Collapsible>
+                ))}
+            </SidebarMenu>
         </SidebarGroup>
     )
 }

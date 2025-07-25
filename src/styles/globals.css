@@ -36,7 +36,7 @@
   --sidebar-accent-foreground: oklch(0.2050 0 0);
   --sidebar-border: oklch(0.9220 0 0);
   --sidebar-ring: oklch(0.7080 0 0);
-  --font-sans: var(--font-outfit), var(--font-noto-sans-myanmar), sans-serif;
+  --font-sans: var(--font-inter), var(--font-noto-sans-myanmar), sans-serif;
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --radius: 0.45rem;
@@ -85,7 +85,7 @@
   --sidebar-accent-foreground: oklch(0.9850 0 0);
   --sidebar-border: oklch(0.2750 0 0);
   --sidebar-ring: oklch(0.4390 0 0);
-  --font-sans: var(--font-outfit), var(--font-noto-sans-myanmar), sans-serif;
+  --font-sans: var(--font-inter), var(--font-noto-sans-myanmar), sans-serif;
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --radius: 0.45rem;
@@ -153,12 +153,12 @@
 }
 
 * {
-  line-height: 1.65 !important;
+  line-height: var(--leading-relaxed) !important;
 }
 
 body {
   letter-spacing: var(--tracking-normal);
-  font-family: var(--font-outfit), var(--font-noto-sans-myanmar), sans-serif;
+  font-family: var(--font-inter), var(--font-noto-sans-myanmar), sans-serif;
 }
 
 @layer base {

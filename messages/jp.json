@@ -1,6 +1,7 @@
 {
     "Core": {
         "language": "言語",
+        "de": "ドイツ語",
         "en": "英語",
         "my": "ビルマ語",
         "jp": "日本語",
@@ -9,10 +10,28 @@
     },
     "HomePage": {
         "title": "こんにちは、世界！",
-        "about": "このページについて"
+        "about": "このページについて",
+        "total_revenue": "総収益",
+        "new_customers": "新規顧客",
+        "active_accounts": "アクティブなアカウント",
+        "growth_rate": "成長率",
+        "revenue_subtitle_1": "今月は上昇中",
+        "revenue_subtitle_2": "過去6ヶ月の訪問者",
+        "new_customers_subtitle_1": "この期間は20%減少",
+        "new_customers_subtitle_2": "獲得に注意が必要",
+        "active_accounts_subtitle_1": "ユーザーの保持が強い",
+        "active_accounts_subtitle_2": "エンゲージメントが目標を超えている",
+        "growth_rate_subtitle_1": "パフォーマンスの安定した増加",
+        "growth_rate_subtitle_2": "成長率は目標に沿っている",
+        "chart_title": "総訪問者数",
+        "chart_subtitle": "過去6ヶ月の総訪問者数",
+        "last_3_months": "過去3ヶ月",
+        "last_30_days": "過去30日",
+        "last_7_days": "過去7日"
     },
     "Navigation": {
         "navMain": {
+            "quick_create": "クイック作成",
             "Dashboard": "ダッシュボード",
             "Lifecycle": "ライフサイクル",
             "Analytics": "分析",
@@ -36,6 +55,65 @@
             "Data Library": "データライブラリ",
             "Reports": "レポート",
             "Word Assistant": "ワードアシスタント"
+        }
+    },
+    "HR": {
+        "core": {
+            "title": "コア人事",
+            "departments": "部署",
+            "designations": "職位",
+            "employees": "従業員",
+            "shifts": "シフト",
+            "employment_history": "雇用履歴"
+        },
+        "time_management": {
+            "title": "時間管理",
+            "attendances": "出勤",
+            "absences": "欠勤",
+            "overtimes": "残業",
+            "holidays": "休日"
+        },
+        "payroll": {
+            "title": "給与管理",
+            "payroll_driver": "給与ドライバー",
+            "payroll_rules": "給与ルール"
+        },
+        "leave": {
+            "title": "休暇管理",
+            "leave_types": "休暇タイプ",
+            "leave_requests": "休暇申請"
+        },
+        "trip": {
+            "title": "出張管理",
+            "trip_records": "出張記録",
+            "trip_bonus": "出張手当"
+        },
+        "adjustments": {
+            "title": "調整",
+            "contributions": "拠出",
+            "deductions": "控除",
+            "other_plus": "その他プラス",
+            "other_minus": "その他マイナス"
+        },
+        "personal_actions": {
+            "title": "個人アクション",
+            "job_movements": "職務異動",
+            "resignation": "退職",
+            "termination": "解雇",
+            "rehire": "再雇用",
+            "reassignment": "再配置"
+        },
+        "recruitment": {
+            "title": "採用",
+            "job_positions": "求人ポジション",
+            "candidates": "候補者",
+            "interviews": "面接"
+        },
+        "communications": {
+            "title": "コミュニケーション",
+            "hr_policies": "人事ポリシー",
+            "announcements": "お知らせ",
+            "newsletters": "ニュースレター"
         }
     }
 }

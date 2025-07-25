@@ -1,6 +1,7 @@
 {
     "Core": {
         "language": "언어",
+        "de": "독일어",
         "en": "영어",
         "my": "버마어",
         "jp": "일본어",
@@ -9,10 +10,28 @@
     },
     "HomePage": {
         "title": "안녕하세요, 세계!",
-        "about": "이 페이지에 대해서"
+        "about": "이 페이지에 대해서",
+        "total_revenue": "총 수익",
+        "new_customers": "신규 고객",
+        "active_accounts": "활성 계정",
+        "growth_rate": "성장률",
+        "revenue_subtitle_1": "이번 달 상승 중",
+        "revenue_subtitle_2": "지난 6개월 방문자",
+        "new_customers_subtitle_1": "이 기간 20% 감소",
+        "new_customers_subtitle_2": "획득에 주의가 필요합니다",
+        "active_accounts_subtitle_1": "강한 사용자 유지",
+        "active_accounts_subtitle_2": "참여가 목표를 초과합니다",
+        "growth_rate_subtitle_1": "안정적인 성능 증가",
+        "growth_rate_subtitle_2": "성장률이 목표에 맞습니다",
+        "chart_title": "총 방문자",
+        "chart_subtitle": "지난 6개월 총 방문자",
+        "last_3_months": "지난 3개월",
+        "last_30_days": "지난 30일",
+        "last_7_days": "지난 7일"
     },
     "Navigation": {
         "navMain": {
+            "quick_create": "빠른 생성",
             "Dashboard": "대시보드",
             "Lifecycle": "라이프사이클",
             "Analytics": "분석",
@@ -36,6 +55,65 @@
             "Data Library": "데이터 라이브러리",
             "Reports": "보고서",
             "Word Assistant": "워드 어시스턴트"
+        }
+    },
+    "HR": {
+        "core": {
+            "title": "핵심 인사",
+            "departments": "부서",
+            "designations": "직책",
+            "employees": "직원",
+            "shifts": "교대",
+            "employment_history": "고용 이력"
+        },
+        "time_management": {
+            "title": "시간 관리",
+            "attendances": "출근",
+            "absences": "결근",
+            "overtimes": "초과 근무",
+            "holidays": "휴일"
+        },
+        "payroll": {
+            "title": "급여 관리",
+            "payroll_driver": "급여 드라이버",
+            "payroll_rules": "급여 규칙"
+        },
+        "leave": {
+            "title": "휴가 관리",
+            "leave_types": "휴가 유형",
+            "leave_requests": "휴가 신청"
+        },
+        "trip": {
+            "title": "출장 관리",
+            "trip_records": "출장 기록",
+            "trip_bonus": "출장 보너스"
+        },
+        "adjustments": {
+            "title": "조정",
+            "contributions": "기여",
+            "deductions": "공제",
+            "other_plus": "기타 플러스",
+            "other_minus": "기타 마이너스"
+        },
+        "personal_actions": {
+            "title": "개인 행동",
+            "job_movements": "직무 이동",
+            "resignation": "사직",
+            "termination": "해고",
+            "rehire": "재고용",
+            "reassignment": "재배치"
+        },
+        "recruitment": {
+            "title": "채용",
+            "job_positions": "직무 포지션",
+            "candidates": "후보자",
+            "interviews": "면접"
+        },
+        "communications": {
+            "title": "커뮤니케이션",
+            "hr_policies": "인사 정책",
+            "announcements": "공지사항",
+            "newsletters": "뉴스레터"
         }
     }
 }
